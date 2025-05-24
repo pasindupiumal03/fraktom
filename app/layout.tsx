@@ -11,7 +11,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Trado - Learn Degen Trading Without the Losses",
   description: "Simulate pump.fun-style trading without real money. Get feedback, XP, and climb the leaderboard.",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/logo.avif',
+    shortcut: '/logo.avif',
+    apple: '/logo.avif',
+  },
+  openGraph: {
+    images: ['/logo.avif']
+  }
 }
 
 export default function RootLayout({
