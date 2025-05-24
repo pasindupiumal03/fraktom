@@ -86,17 +86,17 @@ export default function HomePage() {
       </nav>
 
       <Button
-              className="bg-[#10b981] hover:bg-[#059669] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 group w-[250px] flex justify-center items-center"
-            >
-              <span className="group-hover:hidden flex items-center">
-                Start your trading now
-                <span className="ml-2">▶</span>
-              </span>
-              <span className="hidden group-hover:flex items-center">
-                <Ban className="w-4 h-4 mr-1.5" />
-                Coming Soon
-              </span>
-            </Button>
+        className="mt-14 bg-[#10b981] hover:bg-[#059669] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 group w-[250px] flex justify-center items-center my-auto"
+      >
+        <span className="group-hover:hidden flex items-center">
+          Start your trading now
+          <span className="ml-2">▶</span>
+        </span>
+        <span className="hidden group-hover:flex items-center">
+          <Ban className="w-4 h-4 mr-1.5" />
+          Coming Soon
+        </span>
+      </Button>
     </header>
 
       {/* Hero Section */}
