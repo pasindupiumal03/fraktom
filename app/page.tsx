@@ -96,7 +96,7 @@ export default function HomePage() {
           <Ban className="w-4 h-4 mr-1.5" />
           Coming Soon
         </span>
-      </Button>
+      </Button>
     </header>
 
       {/* Hero Section */}
