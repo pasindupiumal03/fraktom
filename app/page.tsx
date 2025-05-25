@@ -3,12 +3,13 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Ban, Plus, X } from "lucide-react"
+import {  Ban, Plus, X } from "lucide-react"
 import { useCallback, useEffect, useState } from "react"
 import { useInView } from "react-intersection-observer"
 import { motion } from "framer-motion";
-import firstFeatureImage from "@/public/firstFeatureImage.webp"
-import thirdFeatureImage from "@/public/thirdFeatureImage.webp"
+import firstFeatureImage from "@/public/3.webp"
+import secondFeatureImage from "@/public/3new.png";
+import thirdFeatureImage from "@/public/5.webp"
 import { AlertTriangle } from "lucide-react"
 import logo from "@/public/logo.avif"
 
@@ -90,7 +91,7 @@ export default function HomePage() {
       >
         <span className="group-hover:hidden flex items-center">
           Start your trading now
-          <span className="ml-2">▶</span>
+          <span className="ml-2">&#9654;</span>
         </span>
         <span className="hidden group-hover:flex items-center">
           <Ban className="w-4 h-4 mr-1.5" />
@@ -125,7 +126,7 @@ export default function HomePage() {
           >
             <span className="group-hover:hidden flex items-center">
               Start your trading now
-              <span className="ml-2">▶</span>
+              <span className="ml-2">&#9654;</span>
             </span>
             <span className="hidden group-hover:flex items-center">
               <Ban className="w-4 h-4 mr-1.5" />
@@ -247,13 +248,13 @@ export default function HomePage() {
  
             <div className="bg-[#131111] p-4 rounded-2xl relative">
             <div className="bg-white bg-opacity-5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 bg-transparent w-72 px-2 py-3 rounded-2xl flex items-center justify-center">
-              <AlertTriangle className="w-6 h-6 text-white mr-2" />
+              <AlertTriangle className="w-6 h-6 text-yellow-300 mr-2" />
               <span className="italic font-medium text-white text-center align-middle">
                 Suspicious pattern detected
               </span>
             </div>
 
-            <Image src={firstFeatureImage} alt="feature-image-1" />
+            <Image src={secondFeatureImage} alt="feature-image-1" />
             <div className="p-4">
               <h2 className="text-white font-semibold text-2xl">Avoid the traps</h2>
               <h4 className="text-[#8f8a8a]">Get rugged once. Learn forever</h4>
@@ -440,7 +441,7 @@ export default function HomePage() {
             >
               <span className="group-hover:hidden flex items-center">
                 Start your trading now
-                <span className="ml-2">▶</span>
+                <span className="ml-2">&#9654;</span>
               </span>
               <span className="hidden group-hover:flex items-center">
                 <Ban className="w-4 h-4 mr-1.5" />
@@ -535,7 +536,7 @@ export default function HomePage() {
             >
               <span className="group-hover:hidden flex items-center">
                 Start your trading now
-                <span className="ml-2">▶</span>
+                <span className="ml-2">&#9654;</span>
               </span>
               <span className="hidden group-hover:flex items-center">
                 <Ban className="w-4 h-4 mr-1.5" />
@@ -552,7 +553,7 @@ export default function HomePage() {
           <Image src={logo} alt="footer-logo" width={60} height={60} />
           <h4 className="text-2xl font-extrabold">Fraktom</h4>
         </div>
-        <Link href="#" className="text-[#7e7a7a]">Start your trading</Link>
+        <p className="text-[#7e7a7a]">Start your trading</p>
       </div>
 
       {/* Background Gradient Effects */}
