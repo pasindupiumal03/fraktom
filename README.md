@@ -1,57 +1,55 @@
-# Fraktom Clone
+# Fraktom
 
-A Next.js application that clones the fraktom.fun website design with modern React components and Tailwind CSS.
+A modern, educational trading simulation platform inspired by pump.fun, built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui components. Fraktom lets users practice trading without risking real money, climb leaderboards, and learn trading concepts interactively.
 
 ## Features
 
-- 🎯 Pixel-perfect recreation of fraktom.fun design
-- ⚡ Built with Next.js 14 and App Router
-- 🎨 Styled with Tailwind CSS
-- 🔧 TypeScript for type safety
-- 📱 Fully responsive design
-- 🎭 Interactive components and animations
-- 📊 Trading interface mockups
-- 🏆 Leaderboard components
+- 🎯 Simulated trading interface (no real money required)
+- ⚡ Built with Next.js App Router (v15+)
+- 🎨 Styled with Tailwind CSS and glassmorphism effects
+- 🏆 Real-time leaderboard and XP system
+- 📱 Fully responsive, mobile-first design
 - ❓ Interactive FAQ section
+- 🛠️ Modular, reusable UI components (shadcn/ui, Radix, Lucide icons)
+- 📊 Animated charts and trading stats
+- 🔒 TypeScript for type safety
+- 📚 Documentation link and social integration
 
 ## Getting Started
 
 ### Prerequisites
 
-Make sure you have Node.js 18+ installed on your machine.
+- Node.js 18+
+- pnpm (recommended), npm, or yarn
 
 ### Installation
 
-1. Clone the repository:
-\`\`\`bash
-git clone <your-repo-url>
-cd fraktom-clone
-\`\`\`
-
-2. Install dependencies:
-\`\`\`bash
+```bash
+git clone https://github.com/pasindupiumal03/fraktom.git
+cd fraktom
+pnpm install
+# or
 npm install
 # or
 yarn install
-# or
-pnpm install
-\`\`\`
+```
 
-3. Run the development server:
-\`\`\`bash
+### Running Locally
+
+```bash
+pnpm dev
+# or
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-\`\`\`
+```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
-\`\`\`
-fraktom-clone/
+```
+fraktom/
 ├── app/
 │   ├── layout.tsx          # Root layout component
 │   ├── page.tsx            # Home page component
