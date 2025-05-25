@@ -17,8 +17,8 @@ export default function HomePage() {
 
   const faqData = [
     {
-      question: "What Is Trado?",
-      answer: "Trado is a pump.fun-style trading platform without real money.",
+      question: "What Is Fraktom?",
+      answer: "Fraktom is a pump.fun-style trading platform without real money.",
     },
     {
       question: "How Does The Training Work?",
@@ -30,9 +30,9 @@ export default function HomePage() {
       answer: "No, this is a simulation. You can practice trading without any risk.",
     },
     {
-      question: "Who Is Trado For?",
+      question: "Who Is Fraktom For?",
       answer:
-        "Trado is for anyone who wants to learn how to trade. It is especially useful for beginners who want to practice trading without any risk.",
+        "Fraktom is for anyone who wants to learn how to trade. It is especially useful for beginners who want to practice trading without any risk.",
     },
   ]
 
@@ -73,14 +73,14 @@ export default function HomePage() {
 
       <div className="flex items-center gap-3">
         <Image src={logo} alt="header-logo" height={50} width={50} />
-        <span className="text-2xl font-semibold tracking-tight">Trado</span>
+        <span className="text-2xl font-semibold tracking-tight">Fraktom</span>
       </div>
 
       <nav className="flex flex-col sm:flex-row items-center gap-4 sm:gap-10 md:gap-10">
         <Link href="#" className="text-gray-400 hover:text-white transition-colors text-[15px] font-medium">
           X/Twitter
         </Link>
-        <Link href="#" className="text-gray-400 hover:text-white transition-colors text-[15px] font-medium">
+        <Link href="https://trado-3.gitbook.io/fraktom/" className="text-gray-400 hover:text-white transition-colors text-[15px] font-medium">
           Documentation
         </Link>
       </nav>
@@ -550,7 +550,7 @@ export default function HomePage() {
       <div className="flex flex-col sm:flex-row justify-between items-center px-6 sm:px-12 py-4 gap-4 text-center sm:text-left w-[87%] mx-auto">
         <div className="flex items-center gap-4">
           <Image src={logo} alt="footer-logo" width={60} height={60} />
-          <h4 className="text-2xl font-extrabold">Trado</h4>
+          <h4 className="text-2xl font-extrabold">Fraktom</h4>
         </div>
         <Link href="#" className="text-[#7e7a7a]">Start your trading</Link>
       </div>

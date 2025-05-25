@@ -1,10 +1,10 @@
-# Trado Clone
+# Fraktom Clone
 
-A Next.js application that clones the trado.fun website design with modern React components and Tailwind CSS.
+A Next.js application that clones the fraktom.fun website design with modern React components and Tailwind CSS.
 
 ## Features
 
-- 🎯 Pixel-perfect recreation of trado.fun design
+- 🎯 Pixel-perfect recreation of fraktom.fun design
 - ⚡ Built with Next.js 14 and App Router
 - 🎨 Styled with Tailwind CSS
 - 🔧 TypeScript for type safety
@@ -25,7 +25,7 @@ Make sure you have Node.js 18+ installed on your machine.
 1. Clone the repository:
 \`\`\`bash
 git clone <your-repo-url>
-cd trado-clone
+cd fraktom-clone
 \`\`\`
 
 2. Install dependencies:
@@ -51,7 +51,7 @@ pnpm dev
 ## Project Structure
 
 \`\`\`
-trado-clone/
+fraktom-clone/
 ├── app/
 │   ├── layout.tsx          # Root layout component
 │   ├── page.tsx            # Home page component
