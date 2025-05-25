@@ -7,9 +7,9 @@ import {  Ban, Plus, X } from "lucide-react"
 import { useCallback, useEffect, useState } from "react"
 import { useInView } from "react-intersection-observer"
 import { motion } from "framer-motion";
-import firstFeatureImage from "@/public/3.webp"
+import firstFeatureImage from "@/public/firstFeatureImage.webp"
 import secondFeatureImage from "@/public/3new.png";
-import thirdFeatureImage from "@/public/5.webp"
+import thirdFeatureImage from "@/public/thirdFeatureImage.webp"
 import { AlertTriangle } from "lucide-react"
 import logo from "@/public/logo.avif"
 
@@ -553,7 +553,7 @@ export default function HomePage() {
           <Image src={logo} alt="footer-logo" width={60} height={60} />
           <h4 className="text-2xl font-extrabold">Fraktom</h4>
         </div>
-        <p className="text-[#7e7a7a]">Start your trading</p>
+        <Link href="#" className="text-[#7e7a7a]">Start your trading</Link>
       </div>
 
       {/* Background Gradient Effects */}
