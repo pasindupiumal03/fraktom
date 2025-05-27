@@ -81,7 +81,7 @@ export default function HomePage() {
         <Link href="#" className="text-gray-400 hover:text-white transition-colors text-[15px] font-medium">
           X/Twitter
         </Link>
-        <Link href="https://trado-3.gitbook.io/fraktom/" className="text-gray-400 hover:text-white transition-colors text-[15px] font-medium">
+        <Link href="https://fraktom.gitbook.io/fraktom" className="text-gray-400 hover:text-white transition-colors text-[15px] font-medium">
           Documentation
         </Link>
       </nav>
