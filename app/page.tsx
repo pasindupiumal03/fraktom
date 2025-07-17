@@ -87,16 +87,18 @@ export default function HomePage() {
       </nav>
 
       <Button
-        className="mt-14 bg-[#10b981] hover:bg-[#059669] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 group w-[250px] flex justify-center items-center my-auto"
+        asChild
+        className="mt-14 bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 w-[250px] flex justify-center items-center my-auto"
       >
-        <span className="group-hover:hidden flex items-center">
+        <a
+          href="https://fraktomtrade.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center"
+        >
           Start your trading now
           <span className="ml-2">&#9654;</span>
-        </span>
-        <span className="hidden group-hover:flex items-center">
-          <Ban className="w-4 h-4 mr-1.5" />
-          Coming Soon
-        </span>
+        </a>
       </Button>
     </header>
 
@@ -122,16 +124,18 @@ export default function HomePage() {
           </h1>
 
           <Button
-            className="mt-14 bg-[#10b981] hover:bg-[#059669] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 group w-[250px] flex justify-center items-center"
+            asChild
+            className="mt-14 bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 w-[250px] flex justify-center items-center"
           >
-            <span className="group-hover:hidden flex items-center">
+            <a
+              href="https://fraktomtrade.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
               Start your trading now
               <span className="ml-2">&#9654;</span>
-            </span>
-            <span className="hidden group-hover:flex items-center">
-              <Ban className="w-4 h-4 mr-1.5" />
-              Coming Soon
-            </span>
+            </a>
           </Button>
         </div>
 
@@ -437,16 +441,18 @@ export default function HomePage() {
             {/* CTA Button */}
             <div className="text-center">
             <Button
-              className="bg-[#10b981] hover:bg-[#059669] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 group w-[250px] flex justify-center items-center"
+              asChild
+              className="bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 w-[250px] flex justify-center items-center"
             >
-              <span className="group-hover:hidden flex items-center">
+              <a
+                href="https://fraktomtrade.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
                 Start your trading now
                 <span className="ml-2">&#9654;</span>
-              </span>
-              <span className="hidden group-hover:flex items-center">
-                <Ban className="w-4 h-4 mr-1.5" />
-                Coming Soon
-              </span>
+              </a>
             </Button>
             </div>
             </motion.div>
@@ -532,16 +538,18 @@ export default function HomePage() {
             </h1>
 
             <Button
-              className="mt-20 bg-[#10b981] hover:bg-[#059669] text-black font-semibold px-6 py-2.5 rounded-lg text-sm sm:text-[15px] transition-all duration-200 group w-full sm:w-[250px] flex justify-center items-center"
+              asChild
+              className="mt-20 bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-sm sm:text-[15px] transition-all duration-200 w-full sm:w-[250px] flex justify-center items-center"
             >
-              <span className="group-hover:hidden flex items-center">
+              <a
+                href="https://fraktomtrade.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
                 Start your trading now
                 <span className="ml-2">&#9654;</span>
-              </span>
-              <span className="hidden group-hover:flex items-center">
-                <Ban className="w-4 h-4 mr-1.5" />
-                Coming Soon
-              </span>
+              </a>
             </Button>
           </div>
         </motion.section>
