@@ -91,7 +91,7 @@ export default function HomePage() {
         className="mt-14 bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 w-[250px] flex justify-center items-center my-auto"
       >
         <a
-          href="https://fraktomtrade.vercel.app/"
+          href="https://trade.fraktom.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center"
@@ -128,7 +128,7 @@ export default function HomePage() {
             className="mt-14 bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 w-[250px] flex justify-center items-center"
           >
             <a
-              href="https://fraktomtrade.vercel.app/"
+              href="https://trade.fraktom.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
@@ -445,7 +445,7 @@ export default function HomePage() {
               className="bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-[15px] transition-all duration-200 w-[250px] flex justify-center items-center"
             >
               <a
-                href="https://fraktomtrade.vercel.app/"
+                href="https://trade.fraktom.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center"
@@ -542,7 +542,7 @@ export default function HomePage() {
               className="mt-20 bg-[#10b981] hover:bg-[#10b981] text-black font-semibold px-6 py-2.5 rounded-lg text-sm sm:text-[15px] transition-all duration-200 w-full sm:w-[250px] flex justify-center items-center"
             >
               <a
-                href="https://fraktomtrade.vercel.app/"
+                href="https://trade.fraktom.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center"
